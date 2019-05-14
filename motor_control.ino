@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #define LED D4  // LED at GPIO4 D2
 
-const char* ssid = "Manu_Nevish";
-const char* password = "1234567890";
+const char* ssid = "yourwifiusername";
+const char* password = "yourwifipwd";
 unsigned char status_led=0;
 
 WiFiServer server(80);
